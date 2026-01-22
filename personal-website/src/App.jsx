@@ -473,8 +473,8 @@ export default function PersonalWebsite() {
       {/* Contact Section */}
       <section id="contact" className="min-h-screen bg-gray-900 py-20 px-4 flex items-center">
         <div className="max-w-4xl mx-auto w-full">
-          <h2 className="text-4xl font-bold text-center text-rose-300 mb-4">Let's Bloom Together</h2>
-          <p className="text-center text-gray-400 mb-12">Drop a message to brighten my day 🌸</p>
+          <h2 className="text-4xl font-bold text-center text-rose-300 mb-4">Let's Build Together</h2>
+          <p className="text-center text-gray-400 mb-12">Drop a message!</p>
           
           <div className="grid md:grid-cols-2 gap-12">
             <div>
@@ -504,11 +504,11 @@ export default function PersonalWebsite() {
                   onClick={handleSubmit}
                   className="w-full bg-rose-400 hover:bg-rose-500 text-white py-3 rounded-lg font-semibold transition"
                 >
-                  Send Some Sunshine
+                  Let's Connect!
                 </button>
               </div>
               <p className="text-center text-rose-300 text-sm mt-4">
-                💌 I can't wait to meet my share ⚡ of extra creativity
+                💌 I can't wait to meet you!
               </p>
             </div>
             
@@ -517,14 +517,14 @@ export default function PersonalWebsite() {
                 <Mail className="w-6 h-6 text-rose-400" />
                 <div>
                   <p className="font-semibold">Email:</p>
-                  <p className="text-gray-400">ananyakaduskar1@gmail.com</p>
+                  <p className="text-gray-400">lealm1199@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin className="w-6 h-6 text-rose-400" />
                 <div>
                   <p className="font-semibold">Location:</p>
-                  <p className="text-gray-400">Pune Nagar, Maharena, Madhya Pradesh</p>
+                  <p className="text-gray-400">South Bend, Washington</p>
                 </div>
               </div>
             </div>
