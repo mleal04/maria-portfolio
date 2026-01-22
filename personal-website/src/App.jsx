@@ -336,7 +336,7 @@ export default function PersonalWebsite() {
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 bg-gray-100 rounded-2xl p-2 shadow-md flex-shrink-0">
                   <img 
-                    src = {`${import.meta.env.BASE_URL}/apple_logo.png`}
+                    src = {`${import.meta.env.BASE_URL}apple_logo.png`}
                     alt="Apple" 
                     className="w-full h-full object-contain"
                   />
@@ -365,7 +365,7 @@ export default function PersonalWebsite() {
                 <div className="flex items-start gap-4 mb-4">
                   <div className="w-16 h-16 bg-white rounded-2xl p-2 shadow-lg flex-shrink-0">
                     <img 
-                      src={`${import.meta.env.BASE_URL}/apple_logo.png`} 
+                      src={`${import.meta.env.BASE_URL}apple_logo.png`} 
                       alt="Apple" 
                       className="w-full h-full object-contain"
                     />
@@ -393,7 +393,7 @@ export default function PersonalWebsite() {
                 <div className="flex items-start gap-4 mb-4">
                   <div className="w-16 h-16 bg-white rounded-2xl p-2 shadow-lg flex-shrink-0">
                     <img 
-                      src={`${import.meta.env.BASE_URL}/honeywell_logo.png`} 
+                      src={`${import.meta.env.BASE_URL}honeywell_logo.png`} 
                       alt="Honeywell" 
                       className="w-full h-full object-contain"
                     />
@@ -421,7 +421,7 @@ export default function PersonalWebsite() {
                 <div className="flex items-start gap-4 mb-4">
                   <div className="w-16 h-16 bg-white rounded-2xl p-2 shadow-lg flex-shrink-0">
                     <img 
-                      src={`${import.meta.env.BASE_URL}/s2e_logo.png`} 
+                      src={`${import.meta.env.BASE_URL}s2e_logo.png`} 
                       alt="S2E Lab" 
                       className="w-full h-full object-contain"
                     />
@@ -448,7 +448,7 @@ export default function PersonalWebsite() {
                 <div className="flex items-start gap-4 mb-4">
                   <div className="w-16 h-16 bg-white rounded-2xl p-2 shadow-lg flex-shrink-0">
                     <img 
-                      src={`${import.meta.env.BASE_URL}/ndbridge_logo.png`} 
+                      src={`${import.meta.env.BASE_URL}ndbridge_logo.png`} 
                       alt="NDBridge" 
                       className="w-full h-full object-contain"
                     />
