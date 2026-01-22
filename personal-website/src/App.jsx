@@ -88,7 +88,7 @@ export default function PersonalWebsite() {
             <div className="w-84 h-84 bg-gradient-to-br from-pink-200 to-purple-300 rounded-3xl p-4 shadow-2xl">
               <div className="w-full h-full bg-pink-100 rounded-2xl flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/my_pic.png" 
+                  src={`${import.meta.env.BASE_URL}my_pic.png`}
                   alt="Maria" 
                   className="w-full h-full object-cover rounded-2xl"
                 />
@@ -172,7 +172,7 @@ export default function PersonalWebsite() {
               </p>
               <div className=" bg-pink-100 rounded-2xl flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/interview.png" 
+                  src={`${import.meta.env.BASE_URL}interview.png`}
                   alt="Maria" 
                   className="w-full h-full object-cover rounded-2xl"
                 />
@@ -189,7 +189,7 @@ export default function PersonalWebsite() {
               </p>
               <div className=" bg-pink-100 rounded-2xl flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/parents.png" 
+                  src={`${import.meta.env.BASE_URL}parents.png`}
                   alt="Maria" 
                   className="w-full h-full object-cover rounded-2xl"
                 />
@@ -206,7 +206,7 @@ export default function PersonalWebsite() {
               </p>
               <div className=" bg-pink-100 rounded-2xl flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/inspo.png" 
+                  src={`${import.meta.env.BASE_URL}inspo.png`}
                   alt="Maria" 
                   className="w-full h-full object-cover rounded-2xl"
                 />
@@ -473,8 +473,8 @@ export default function PersonalWebsite() {
       {/* Contact Section */}
       <section id="contact" className="min-h-screen bg-gray-900 py-20 px-4 flex items-center">
         <div className="max-w-4xl mx-auto w-full">
-          <h2 className="text-4xl font-bold text-center text-rose-300 mb-4">Let's Code Together</h2>
-          <p className="text-center text-gray-400 mb-12">Drop a message to connect 🌸</p>
+          <h2 className="text-4xl font-bold text-center text-rose-300 mb-4">Let's Bloom Together</h2>
+          <p className="text-center text-gray-400 mb-12">Drop a message to brighten my day 🌸</p>
           
           <div className="grid md:grid-cols-2 gap-12">
             <div>
@@ -504,11 +504,11 @@ export default function PersonalWebsite() {
                   onClick={handleSubmit}
                   className="w-full bg-rose-400 hover:bg-rose-500 text-white py-3 rounded-lg font-semibold transition"
                 >
-                  Let 's Connect!
+                  Send Some Sunshine
                 </button>
               </div>
               <p className="text-center text-rose-300 text-sm mt-4">
-                💌 I can't wait to meet you!!
+                💌 I can't wait to meet my share ⚡ of extra creativity
               </p>
             </div>
             
@@ -517,14 +517,14 @@ export default function PersonalWebsite() {
                 <Mail className="w-6 h-6 text-rose-400" />
                 <div>
                   <p className="font-semibold">Email:</p>
-                  <p className="text-gray-400">lealm11991@gmail.com</p>
+                  <p className="text-gray-400">ananyakaduskar1@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin className="w-6 h-6 text-rose-400" />
                 <div>
                   <p className="font-semibold">Location:</p>
-                  <p className="text-gray-400">South Bend, Indiana</p>
+                  <p className="text-gray-400">Pune Nagar, Maharena, Madhya Pradesh</p>
                 </div>
               </div>
             </div>
