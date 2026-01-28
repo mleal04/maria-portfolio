@@ -288,6 +288,7 @@ export default function PersonalWebsite() {
                 Designed and implemented RESTful endpoints for creating, reading, updating notes while focusing on secure password handling (bcrypt), token expiration, and scalable deployment strategies to simulate production-readiness.
               </p>
               <p className="text-sm text-rose-300 mb-4">Tech: GoLang, Docker, PostgreSQL, Splunk</p>
+              <a href="https://github.com/mleal04/GopherPad_" className="text-rose-400 hover:underline">View on GitHub</a>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-purple-400 transition">
@@ -304,6 +305,7 @@ export default function PersonalWebsite() {
                 Implemented multithreading and byte-order interoperability, enabling concurrent node-to-node connections and seamless binary data exchange across architectures. Developed a base64-encoded file transfer protocol for efficient data exchange.
               </p>
               <p className="text-sm text-purple-300 mb-4">Tech: C, C++</p>
+              <a href="https://github.com/mleal04/networking/tree/main/project1" className="text-purple-400 hover:underline">View on GitHub</a>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-indigo-400 transition">
@@ -320,6 +322,7 @@ export default function PersonalWebsite() {
                 Designed dynamic job queue structures using singly linked lists to simulate work queues and efficiently assign print tasks to concurrent worker threads with real-time job prioritization and status tracking.
               </p>
               <p className="text-sm text-indigo-300 mb-4">Tech: C Language, POSIX, Multithreading</p>
+              <a href="https://github.com/mleal04/OS_projects/tree/pro1/project4" className="text-indigo-400 hover:underline">View on GitHub</a>
             </div>
           </div>
         </div>
@@ -524,7 +527,7 @@ export default function PersonalWebsite() {
                 <MapPin className="w-6 h-6 text-rose-400" />
                 <div>
                   <p className="font-semibold">Location:</p>
-                  <p className="text-gray-400">South Bend, Washington</p>
+                  <p className="text-gray-400">South Bend, Indiana</p>
                 </div>
               </div>
             </div>
